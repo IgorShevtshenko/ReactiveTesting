@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "ReactiveTesting",
     defaultLocalization: "en",
-    platforms: [.iOS(.v17), .macOS(.v10_15)],
+    platforms: [.iOS(.v17)],
     products: [
         .library(
             name: "ReactiveTesting",
